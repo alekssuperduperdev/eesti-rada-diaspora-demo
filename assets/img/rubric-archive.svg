@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">Archive documents</title>
+  <desc id="d">Stacks of archival sheets and notes</desc>
+  <rect width="1200" height="700" fill="#32465f"/>
+  <rect x="140" y="120" width="920" height="470" fill="#efe4d3"/>
+  <rect x="240" y="210" width="300" height="240" fill="#fff9ef" stroke="#ccbca2"/>
+  <rect x="310" y="180" width="320" height="250" fill="#f8f0e2" stroke="#ccbca2"/>
+  <rect x="610" y="230" width="320" height="250" fill="#fff9ef" stroke="#ccbca2"/>
+  <line x1="340" y1="240" x2="590" y2="240" stroke="#687487" stroke-width="6"/>
+  <line x1="340" y1="280" x2="590" y2="280" stroke="#687487" stroke-width="6"/>
+  <line x1="340" y1="320" x2="530" y2="320" stroke="#687487" stroke-width="6"/>
+  <line x1="640" y1="270" x2="900" y2="270" stroke="#687487" stroke-width="6"/>
+  <line x1="640" y1="310" x2="900" y2="310" stroke="#687487" stroke-width="6"/>
+  <line x1="640" y1="350" x2="860" y2="350" stroke="#687487" stroke-width="6"/>
+</svg>

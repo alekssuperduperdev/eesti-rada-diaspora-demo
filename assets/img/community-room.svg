@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">Community roundtable</title>
+  <desc id="d">People around table in community hall</desc>
+  <rect width="1200" height="700" fill="#2d3e58"/>
+  <rect x="130" y="130" width="940" height="450" fill="#eee5d7"/>
+  <ellipse cx="600" cy="390" rx="350" ry="130" fill="#405778"/>
+  <g fill="#e2bf9a">
+    <circle cx="310" cy="330" r="42"/><circle cx="440" cy="280" r="42"/><circle cx="600" cy="255" r="42"/>
+    <circle cx="760" cy="280" r="42"/><circle cx="890" cy="330" r="42"/>
+  </g>
+  <rect x="260" y="390" width="680" height="80" fill="#d8c8b0"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">Article inline editorial desk</title>
+  <desc id="d">Editors and papers on work table</desc>
+  <rect width="1200" height="700" fill="#24354b"/>
+  <rect x="120" y="120" width="960" height="460" fill="#f1e8db"/>
+  <rect x="210" y="220" width="780" height="260" fill="#304560"/>
+  <rect x="260" y="260" width="220" height="160" fill="#f8f0e3"/>
+  <rect x="520" y="260" width="180" height="160" fill="#f8f0e3"/>
+  <rect x="740" y="260" width="180" height="160" fill="#f8f0e3"/>
+  <line x1="285" y1="290" x2="450" y2="290" stroke="#61708a" stroke-width="5"/>
+  <line x1="285" y1="325" x2="440" y2="325" stroke="#61708a" stroke-width="5"/>
+  <line x1="545" y1="295" x2="675" y2="295" stroke="#61708a" stroke-width="5"/>
+  <line x1="765" y1="295" x2="895" y2="295" stroke="#61708a" stroke-width="5"/>
+</svg>
