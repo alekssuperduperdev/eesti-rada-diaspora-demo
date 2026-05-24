@@ -3,13 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eesti Rada</title>
+    <title>Eesti Rada | Artikkel</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <header class="site-header"></header>
-    <main id="content"></main>
-    <footer class="site-footer"></footer>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="Eesti Rada logo" />
+        </a>
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-menu">Menüü / Menü</button>
+        <nav id="primary-menu" class="site-nav" data-nav-menu aria-label="Primary">
+          <a href="index.html">Avaleht / Startseite</a>
+          <a href="artikkel.html" aria-current="page">Artikkel / Artikel</a>
+          <a href="rubriigid.html">Rubriigid / Rubriken</a>
+          <a href="kogukond.html">Kogukond / Gemeinschaft</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article class="article-layout">
+        <p class="meta">Autor: Toimetus | Byline: Redaktion</p>
+        <h1>Metsaäärne rada ja linnahääl</h1>
+        <p>Kuidas kohalikud algatused ühendavad pärandi, argipäeva ja tulevikuvaateid.</p>
+        <p>Lugu jälgib kolme kogukonda, kes töötavad vabatahtlikult piirkondlike lugude säilitamise nimel.</p>
+      </article>
+      <p><a class="read-more" href="rubriigid.html">Loe edasi / Weiterlesen</a></p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Eesti Rada - Uudiskiri ET/DE</p>
+      </div>
+    </footer>
     <script src="assets/js/main.js" defer></script>
   </body>
 </html>

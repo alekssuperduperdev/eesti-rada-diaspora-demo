@@ -3,13 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eesti Rada</title>
+    <title>Eesti Rada | Avaleht</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <header class="site-header"></header>
-    <main id="content"></main>
-    <footer class="site-footer"></footer>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="Eesti Rada logo" />
+        </a>
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-menu">Menüü / Menü</button>
+        <nav id="primary-menu" class="site-nav" data-nav-menu aria-label="Primary">
+          <a href="index.html" aria-current="page">Avaleht / Startseite</a>
+          <a href="artikkel.html">Artikkel / Artikel</a>
+          <a href="rubriigid.html">Rubriigid / Rubriken</a>
+          <a href="kogukond.html">Kogukond / Gemeinschaft</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <section class="hero">
+        <p class="eyebrow">Eesti Rada</p>
+        <h1>Leitstory</h1>
+        <p>Lugu kohtadest, mälust ja inimestest, kes hoiavad Eesti raja elus.</p>
+      </section>
+      <section class="highlights">
+        <h2>Aktuaalne / Aktuell</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Pärand ja tänapäev</h3>
+            <p>Lühivormid, intervjuud ja reportaažid kogukonna häältest.</p>
+          </article>
+          <article class="card">
+            <h3>Uued lood</h3>
+            <p>Iganädalane valik värsketest artiklitest ja rubriikidest.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Eesti Rada - Uudiskiri ET/DE</p>
+      </div>
+    </footer>
     <script src="assets/js/main.js" defer></script>
   </body>
 </html>
