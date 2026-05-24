@@ -9,9 +9,7 @@
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">
-          <img src="assets/logo.png" alt="Eesti Rada logo" />
-        </a>
+        <a class="brand" href="index.html"><img src="assets/logo.png" alt="Eesti Rada logo" /></a>
         <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-menu">Menüü / Menü</button>
         <nav id="primary-menu" class="site-nav" data-nav-menu aria-label="Primary">
           <a href="index.html" aria-current="page">Avaleht / Startseite</a>
@@ -22,65 +20,71 @@
       </div>
     </header>
 
-    <main id="content" class="container home-layout">
-      <section class="hero-feature" aria-labelledby="lead-title">
+    <main id="content" class="container homepage">
+      <section class="lead-block">
         <p class="kicker">Toimetuse valik</p>
-        <h1 id="lead-title">Leitstory: Diaspora noored toovad arhiivilood tagasi kogukonda</h1>
-        <p class="standfirst">Eesti Rada avab uue digitaalse rubriigiseeria, kus perekondlikud mälestused, kohalikud algatused ja Euroopa linnades elav eestlus kohtuvad kaasaegses vormis.</p>
-        <div class="feature-meta">24.05.2026 | Toimetus | Kogukond</div>
-        <img src="assets/img/hero-editorial.svg" alt="Editorial foto diaspora kogukonna toimetuse koosolekust" class="hero-image" />
+        <h1>Leitstory: Euroopa diaspora noored teevad Eesti Rada digiajastu juhtivaks kogukonnaleheks</h1>
+        <p class="standfirst">Kolmes pealinnas tehtud toimetuse välitöö näitab, kuidas uus põlvkond ühendab arhiivi, keele ja kaasaegse ajakirjandusliku vormi. See on kultuuri säilitamine, mis loeb nagu professionaalne tänane ajaleht.</p>
+        <div class="meta">24.05.2026 | Toimetus | Kogemuslood</div>
+        <img class="lead-image" src="assets/img/hero-main.svg" alt="Lead story fotorealistlik toimetuse koosolek" />
       </section>
 
-      <section class="news-rail" aria-labelledby="news-rail-title">
-        <h2 id="news-rail-title">Aktuaalne / Aktuell</h2>
-        <article>
-          <h3><a href="artikkel.html">Intervjuu: noorte toimetajate uus laine Berliinis</a></h3>
-          <p>Vabatahtlikud loovad kahe keele vahel uut formaati, mis hoiab alles ajaloo, kuid loeb nagu tänane ajaleht.</p>
-        </article>
-        <article>
-          <h3><a href="artikkel.html">Kogukonna kalender: suvised kohtumised kuues linnas</a></h3>
-          <p>Rubriik koondab ET/DE sündmused, kus lugejad saavad saata oma piirkonna teateid.</p>
-        </article>
-        <article>
-          <h3><a href="artikkel.html">Arhiivifookus: 1970ndate noorteringi fotod</a></h3>
-          <p>Toimetus digitaliseeris seni avaldamata pildirea ning lisas taustalood peredelt.</p>
-        </article>
+      <aside class="right-rail">
+        <section class="briefing">
+          <h2>Quick Briefing</h2>
+          <ul>
+            <li>Berliin: noorte toimetajate uus nädalarütm.</li>
+            <li>Helsingi: arhiivifond avas 140 uut allikat.</li>
+            <li>Stockholm: kogukonna mentorprogramm käivitus.</li>
+          </ul>
+        </section>
+        <section class="voices">
+          <h2>Voices</h2>
+          <p>"Diaspora meedia ei tohi olla vaid nostalgia; see peab olema tänane tööriist."</p>
+          <p class="voice-author">- Maria K., vabatahtlik toimetaja</p>
+        </section>
+      </aside>
+
+      <section class="top-stories" aria-label="Top stories">
+        <h2>Aktuaalne / Aktuell</h2>
+        <div class="story-grid">
+          <article>
+            <img src="assets/img/topstory-berlin.svg" alt="Berliini toimetuse reportaaži foto" />
+            <h3><a href="artikkel.html">Intervjuu: kuidas Berliini toimetus kasvatab noori autoreid</a></h3>
+            <p>Pika vormi fookuslugu toimetuse tööprotsessidest ja kvaliteedistandarditest.</p>
+          </article>
+          <article>
+            <img src="assets/img/topstory-helsinki.svg" alt="Helsingi arhiivi reportaaži foto" />
+            <h3><a href="artikkel.html">Arhiiv ja tulevik: Helsingi kogukond digitaliseerib mälestusi</a></h3>
+            <p>Lugu näitab, kuidas dokumentidest sünnib uudne, usaldusväärne looformaat.</p>
+          </article>
+          <article>
+            <img src="assets/img/topstory-stockholm.svg" alt="Stockholmi kogukonna sündmuse foto" />
+            <h3><a href="artikkel.html">Stockholmis alustas uus kogukonna meediaakadeemia</a></h3>
+            <p>Noorte juhitud õppevorm ühendab kirjutamise, faktikontrolli ja visuaalse loojutustuse.</p>
+          </article>
+        </div>
       </section>
 
       <section class="rubric-preview" aria-labelledby="rubric-preview-title">
-        <div class="section-head">
+        <div class="section-title-row">
           <h2 id="rubric-preview-title">Rubriikide eelvaade</h2>
-          <a class="text-link" href="rubriigid.html">Vaata kõiki rubriike</a>
+          <a href="rubriigid.html">Vaata kõiki rubriike</a>
         </div>
-        <div class="rubric-cards">
-          <article>
-            <img src="assets/img/rubric-culture.svg" alt="Kultuurirubriigi visuaal" />
-            <h3>Kultuur</h3>
-            <p>Kontserdid, keeled ja loovisikud diasporaas.</p>
-          </article>
-          <article>
-            <img src="assets/img/rubric-archive.svg" alt="Ajaloorubriigi visuaal" />
-            <h3>Ajalugu</h3>
-            <p>Perekondlikud arhiivid ja ühismälu kaardistused.</p>
-          </article>
-        </div>
+        <p>Rubriigid on ehitatud nagu professionaalse ajalehe deskid: iga teemalõik annab selge sissepääsu representatiivsetesse lugudesse.</p>
       </section>
 
-      <section class="community-callout" aria-labelledby="community-teaser-title">
+      <section class="community-call" aria-labelledby="community-call-title">
         <div>
           <p class="kicker">Kogukond</p>
-          <h2 id="community-teaser-title">Saada oma lugu järgmisesse väljaandesse</h2>
-          <p>Kohalikud ühendused, koorid ja noortegrupid saavad saata oma piirkonna loo otse toimetusele.</p>
+          <h2 id="community-call-title">Saada oma lugu järgmisse väljaandesse</h2>
+          <p>Toimetus otsib kogukondlikke reportaaže, perekonnalugusid ja fotomaterjali. Iga saadetud lugu läbib toimetuse kvaliteediprotsessi.</p>
         </div>
-        <a class="btn-primary" href="kogukond.html">Mine kogukonda / Zur Gemeinschaft</a>
+        <a class="btn" href="kogukond.html">Mine kogukonda / Zur Gemeinschaft</a>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>Eesti Rada - Uudiskiri ET/DE</p>
-      </div>
-    </footer>
+    <footer class="site-footer"><div class="container footer-inner"><p>Eesti Rada - Uudiskiri ET/DE</p></div></footer>
     <script src="assets/js/main.js" defer></script>
   </body>
 </html>
