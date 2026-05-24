@@ -2,6 +2,10 @@
 
 Static four-page ET/DE demo site for GitHub Pages.
 
+## Live Demo
+
+https://alekssuperduperdev.github.io/eesti-rada-diaspora-demo/
+
 ## Run tests
 
 ```bash
